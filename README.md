@@ -6,7 +6,7 @@ Inspired from [fetch-base64](https://github.com/gamell/fetch-base64) for Node.js
 ## Usage
 * `fetchRemote(url: string, onlyData?: boolean)`: to fetch base64 data from a remote server
   * **Params**
-    * `url`
+    * `url`:
       * URL of the resource
       * Type: string
     * `onlyData`:
@@ -15,7 +15,7 @@ Inspired from [fetch-base64](https://github.com/gamell/fetch-base64) for Node.js
 
 * `fetchLocal(url: string, onlyData?: boolean)`: to fetch base64 data from a local file
   * **Params**
-    * `url`
+    * `url`:
       * Path of the resource
       * Type: string
     * `onlyData`:
@@ -24,7 +24,7 @@ Inspired from [fetch-base64](https://github.com/gamell/fetch-base64) for Node.js
 
 * `fetchAuto(url: string, onlyData?: boolean)`: to fetch base64 data from a remote server / locally, identifies automatically.
   * **Params**
-    * `url`
+    * `url`:
       * URL/Path of the resource
       * Type: string
     * `onlyData`:
